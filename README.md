@@ -13,7 +13,7 @@
 [![ESLint](https://img.shields.io/badge/ESLint-10-4B32C3?logo=eslint&logoColor=white)](https://github.com/eslint/eslint)
 [![Prettier](https://img.shields.io/badge/Prettier-3-F7B93E?logo=prettier&logoColor=black)](https://github.com/prettier/prettier)
 [![All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-scottdreinhart%2Frock-paper-scissors-181717?logo=github&logoColor=white)](https://github.com/scottdreinhart/rock-paper-scissors)
+[![GitHub](https://img.shields.io/badge/GitHub-scottdreinhart%2Frock--paper--scissors-181717?logo=github&logoColor=white)](https://github.com/scottdreinhart/rock-paper-scissors)
 
 Best-of-N rounds against the CPU with hand animations
 
