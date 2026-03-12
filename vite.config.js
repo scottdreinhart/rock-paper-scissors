@@ -6,7 +6,12 @@ import path from 'path'
 export default defineConfig({
   base: './',
   plugins: [
-    react(),
+    react({
+      codeTransform: {
+        pre: [],
+        post: [],
+      },
+    }),
     visualizer({
       filename: 'dist/bundle-report.html',
       gzipSize: true,
@@ -44,5 +49,8 @@ export default defineConfig({
       host: 'localhost',
       port: 5173,
     },
+  },
+  css: {
+    postcss: {},
   },
 })
