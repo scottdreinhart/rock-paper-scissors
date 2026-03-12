@@ -4,6 +4,7 @@
 
 export { ErrorBoundary } from './ErrorBoundary'
 export { MoveButton } from './MoveButton'
+export { OfflineIndicator } from './OfflineIndicator'
 export { RoundResultDisplay } from './RoundResult'
 export { Score } from './Score'
 export { TierSelector } from './TierSelector'
