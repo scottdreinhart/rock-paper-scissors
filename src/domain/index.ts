@@ -14,3 +14,5 @@ export * from './sprites'
 export * from './themes'
 export * from './tiers'
 export * from './types'
+
+export * from './responsive'

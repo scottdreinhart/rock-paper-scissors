@@ -17,10 +17,10 @@ export function useStats() {
   const recordWin = useCallback(() => {
     setStats((prev) => {
       const next: GameStats = {
-        wins: prev.wins + 1,
-        losses: prev.losses,
-        streak: prev.streak + 1,
-        bestStreak: Math.max(prev.bestStreak, prev.streak + 1),
+        playerWins: prev.playerWins + 1,
+        cpuWins: prev.cpuWins,
+        draws: prev.draws,
+        totalRounds: prev.totalRounds + 1,
       }
       save(STORAGE_KEY, next)
       return next
@@ -30,10 +30,10 @@ export function useStats() {
   const recordLoss = useCallback(() => {
     setStats((prev) => {
       const next: GameStats = {
-        wins: prev.wins,
-        losses: prev.losses + 1,
-        streak: 0,
-        bestStreak: prev.bestStreak,
+        playerWins: prev.playerWins,
+        cpuWins: prev.cpuWins + 1,
+        draws: prev.draws,
+        totalRounds: prev.totalRounds + 1,
       }
       save(STORAGE_KEY, next)
       return next
